@@ -138,17 +138,19 @@ BasicGame.Game.prototype = {
         this.BestScoreResText = this.game.add.bitmapText(this.game.width / 2, this.game.height / 2 - 30, 'font2', '0', 25);
         this.BestScoreResText.anchor.setTo(0.5);
         
-        if (localStorage.getItem('higscore') != null) {
+        if (localStorage.getItem('highscore') != null) {
             this.highrecuperado = localStorage.getItem('highscore');
             this.BestScoreResText.setText(this.highrecuperado);  
-          
+            console.log(this.highrecuperado);
         } else {
+            console.log('vacio');
             this.BestScoreResText.setText(this.ScoreResText.text); 
         }
-        if(this.score> parseInt(this.BestScoreResText.text)){      
+        if(this.score >= parseInt(this.BestScoreResText.text)){    
             localStorage.setItem('highscore', String(this.score));
             this.BestScoreResText.setText(this.ScoreResText.text);
         }
+       
         this.actualScoreText.tint = 0xf15878;
         this.BestScoreText.tint = 0xf15878;
         this.facebookBtn = this.add.button(this.game.width / 2 - 60, this.game.height / 2 + 70, 'atlas', this.shareFacebook, this, 'fcbk_1.png', 'fcbk_1.png', 'fcbk_2.png');
