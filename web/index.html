@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Push the dots</title>
+        <style type="text/css">
+
+            body {
+                margin: 0px;
+                padding: 0px;
+                background: #000000;
+            }
+        </style>
+        <script type="text/javascript">
+            isMobile = false;
+            var uAg = navigator.userAgent.toLowerCase();
+            isMobile = !!uAg.match(/android|iphone|Windows Phone|ipad|touch|kbd|iemobile|bb10|ipod|blackberry|symbianos/i);
+        </script>
+        <script src="src/phaser.min.js"></script>
+        <script src="src/particle-storm.min.js" type="text/javascript"></script>
+        <script src="src/Boot.js"></script>
+        <script src="src/Preloader.js"></script>
+        <script src="src/MainMenu.js"></script>
+        <script src="src/StoryHowto.js"></script>
+        <script src="src/Game.js"></script>
+    </head>
+    <body>
+        <div id="canvasImg">
+            <script>
+            (function () {
+                var gameRatio = window.innerWidth / window.innerHeight;
+                game = new Phaser.Game(600 * gameRatio, 600, Phaser.AUTO, 'game');
+                game.state.add('Boot', BasicGame.Boot);
+                game.state.add('Preloader', BasicGame.Preloader);
+                game.state.add('MainMenu', BasicGame.MainMenu);
+                game.state.add('Game', BasicGame.Game);
+                game.state.start('Boot');
+            })();
+            </script>
+        </div>
+    </body>
+</html>

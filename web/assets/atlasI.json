@@ -1,0 +1,132 @@
+{"frames": [
+
+{
+	"filename": "photo1.png",
+	"frame": {"x":0,"y":0,"w":300,"h":300},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":300,"h":300},
+	"sourceSize": {"w":300,"h":300}
+},
+{
+	"filename": "photo2.png",
+	"frame": {"x":300,"y":0,"w":300,"h":300},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":300,"h":300},
+	"sourceSize": {"w":300,"h":300}
+},
+{
+	"filename": "photo3.png",
+	"frame": {"x":600,"y":0,"w":300,"h":300},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":300,"h":300},
+	"sourceSize": {"w":300,"h":300}
+},
+{
+	"filename": "photo4.png",
+	"frame": {"x":0,"y":300,"w":300,"h":300},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":300,"h":300},
+	"sourceSize": {"w":300,"h":300}
+},
+{
+	"filename": "photo5.png",
+	"frame": {"x":300,"y":300,"w":300,"h":300},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":300,"h":300},
+	"sourceSize": {"w":300,"h":300}
+},
+{
+	"filename": "photo6.png",
+	"frame": {"x":600,"y":300,"w":300,"h":300},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":300,"h":300},
+	"sourceSize": {"w":300,"h":300}
+},
+{
+	"filename": "photo7.png",
+	"frame": {"x":0,"y":600,"w":300,"h":300},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":300,"h":300},
+	"sourceSize": {"w":300,"h":300}
+},
+{
+	"filename": "photo8.png",
+	"frame": {"x":300,"y":600,"w":300,"h":300},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":300,"h":300},
+	"sourceSize": {"w":300,"h":300}
+},
+{
+	"filename": "photo9.png",
+	"frame": {"x":600,"y":600,"w":300,"h":300},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":300,"h":300},
+	"sourceSize": {"w":300,"h":300}
+},
+{
+	"filename": "photo10.png",
+	"frame": {"x":0,"y":900,"w":300,"h":300},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":300,"h":300},
+	"sourceSize": {"w":300,"h":300}
+},
+{
+	"filename": "photo11.png",
+	"frame": {"x":300,"y":900,"w":300,"h":300},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":300,"h":300},
+	"sourceSize": {"w":300,"h":300}
+},
+{
+	"filename": "photo12.png",
+	"frame": {"x":600,"y":900,"w":300,"h":300},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":300,"h":300},
+	"sourceSize": {"w":300,"h":300}
+},
+{
+	"filename": "photo13.png",
+	"frame": {"x":0,"y":1200,"w":300,"h":300},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":300,"h":300},
+	"sourceSize": {"w":300,"h":300}
+},
+{
+	"filename": "photo14.png",
+	"frame": {"x":300,"y":1200,"w":300,"h":300},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":300,"h":300},
+	"sourceSize": {"w":300,"h":300}
+},
+{
+	"filename": "photo15.png",
+	"frame": {"x":600,"y":1200,"w":300,"h":300},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":300,"h":300},
+	"sourceSize": {"w":300,"h":300}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "atlasI.png",
+	"format": "RGBA8888",
+	"size": {"w":900,"h":1500},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:ade6747234beb74047298703055a537f:25fe8924c9ad436f0b940cefde1b5362:e0ecb1afb526bf42866fde0a52d45318$"
+}
+}
